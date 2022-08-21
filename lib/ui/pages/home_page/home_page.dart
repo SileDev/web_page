@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_page/ui/pages/home_page/components/content_section.dart';
 import 'package:web_page/ui/pages/home_page/components/lateral_menu.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,10 +15,7 @@ class HomePage extends StatelessWidget {
         child: Row(
           children: [
             LateralMenu(),
-            Expanded(
-                child: Container(
-              color: Colors.blue,
-            ))
+            ContentSection()
           ],
         ),
       ),
