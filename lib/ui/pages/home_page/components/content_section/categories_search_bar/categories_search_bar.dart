@@ -20,7 +20,7 @@ class CategoriesSearchBar extends StatelessWidget {
           Center(
             child: Container(
               constraints: const BoxConstraints(maxWidth: 400),
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: ClipRRect(
                 borderRadius: const BorderRadius.all(
                   Radius.circular(20),
