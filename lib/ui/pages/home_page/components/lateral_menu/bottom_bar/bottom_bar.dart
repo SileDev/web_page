@@ -12,7 +12,7 @@ class BottomBar extends StatelessWidget {
         borderRadius: BorderRadius.all(
           Radius.circular(20),
         ),
-        color: Color(0xffe8e8e8),
+        color: Color(0xffe7e7e7),
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

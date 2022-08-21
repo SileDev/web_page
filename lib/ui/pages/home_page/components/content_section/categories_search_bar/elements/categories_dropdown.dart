@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CategoryDropdown extends StatelessWidget {
-  final String label, imagePath;
-  const CategoryDropdown(
-      {Key? key, required this.label, required this.imagePath})
-      : super(key: key);
+class CategoriesDropdown extends StatelessWidget {
+  final String label;
+  const CategoriesDropdown({Key? key, required this.label}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return ColoredBox(
+    return Container(
       color: const Color(0xfff5f5f5),
       child: DropdownButton(
           itemHeight: 56,
@@ -37,23 +35,12 @@ class CategoryDropdown extends StatelessWidget {
             DropdownMenuItem(
               child: Padding(
                 padding: const EdgeInsets.all(8),
-                child: Row(
-                  children: [
-                    Image.asset(
-                      imagePath,
-                      fit: BoxFit.cover,
-                    ),
-                    const SizedBox(
-                      width: 8,
-                    ),
-                    Text(
-                      label,
-                      style: TextStyle(
-                          fontSize:
-                              Theme.of(context).textTheme.labelMedium!.fontSize,
-                          fontWeight: FontWeight.bold),
-                    ),
-                  ],
+                child: Text(
+                  label,
+                  style: TextStyle(
+                      fontSize:
+                          Theme.of(context).textTheme.labelMedium!.fontSize,
+                      fontWeight: FontWeight.bold),
                 ),
               ),
             ),

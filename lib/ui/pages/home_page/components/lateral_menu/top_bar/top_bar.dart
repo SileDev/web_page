@@ -12,7 +12,7 @@ class TopBar extends StatelessWidget {
           topLeft: Radius.circular(8),
           topRight: Radius.circular(8),
         ),
-        color: Color(0xffe8e8e8),
+        color: Color(0xffe7e7e7),
       ),
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 4),
