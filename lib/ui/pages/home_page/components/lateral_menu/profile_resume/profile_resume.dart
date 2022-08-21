@@ -6,10 +6,15 @@ class ProfileResume extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ScrollController contentScrollController = ScrollController();
     return Expanded(
       child: SingleChildScrollView(
+        controller: contentScrollController,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 32),
+          padding: const EdgeInsets.symmetric(
+            horizontal: 32,
+            vertical: 16,
+          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

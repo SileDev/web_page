@@ -7,14 +7,10 @@ class LateralMenu extends StatelessWidget {
   const LateralMenu({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    var size = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.all(16),
       child: Container(
         width: 290,
-        constraints: BoxConstraints(
-          minHeight: size.height - (56 + 32),
-        ),
         decoration: const BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(8)),
           boxShadow: [
@@ -23,10 +19,10 @@ class LateralMenu extends StatelessWidget {
           color: Colors.white,
         ),
         child: Column(
-          children: [
+          children: const [
             TopBar(),
-            //ProfileResume(),
-            BottomBar()
+            ProfileResume(),
+            BottomBar(),
           ],
         ),
       ),
