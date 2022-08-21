@@ -7,6 +7,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
+    print(size.width);
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -15,12 +16,12 @@ class HomePage extends StatelessWidget {
       body: SafeArea(
         child: Row(
           children: [
-            if (size.width > 500) const LateralMenu(),
+            if (size.width > 650) const LateralMenu(),
             const ContentSection(),
           ],
         ),
       ),
-      drawer: (size.width > 500) ? const LateralMenu() : null,
+      drawer: (size.width > 650) ? const LateralMenu() : null,
     );
   }
 }

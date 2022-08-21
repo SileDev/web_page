@@ -9,14 +9,15 @@ class CategoriesBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
+    int securitySpace = (size.width > 650) ? 354 : 0;
     return StaggeredGrid.count(
-      crossAxisCount: (size.width - 354 > 960)
+      crossAxisCount: (size.width - securitySpace > 960)
           ? 6
-          : (size.width - 354 > 650)
+          : (size.width - securitySpace > 650)
               ? 4
-              : (size.width - 354 > 500)
+              : (size.width - securitySpace > 500)
                   ? 3
-                  : (size.width - 354 > 350)
+                  : (size.width - securitySpace > 350)
                       ? 2
                       : 1,
       mainAxisSpacing: 8,
