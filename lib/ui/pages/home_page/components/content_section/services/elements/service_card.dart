@@ -49,7 +49,7 @@ class ServiceCard extends StatelessWidget {
                     Image.asset(
                       "assets/content_panel/cpsc.jpg",
                       width: double.infinity,
-                      height: 125,
+                      height: 140,
                       fit: BoxFit.cover,
                     ),
                     Padding(
@@ -136,7 +136,7 @@ class ServiceCard extends StatelessWidget {
                     Expanded(
                       child: Image.asset(
                         "assets/content_panel/cpsc.jpg",
-                        height: 125,
+                        height: 140,
                         fit: BoxFit.cover,
                       ),
                     ),
