@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:web_page/ui/pages/home_page/components/content_section/categories_search_bar/elements/categories_dropdown.dart';
 
 class CategoriesSearchBar extends StatelessWidget {
   const CategoriesSearchBar({Key? key}) : super(key: key);
