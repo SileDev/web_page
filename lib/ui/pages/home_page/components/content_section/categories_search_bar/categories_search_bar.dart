@@ -26,16 +26,15 @@ class CategoriesSearchBar extends StatelessWidget {
                   Radius.circular(20),
                 ),
                 child: Material(
-                  child: Row(children: [
-                    Container(
-                      color: const Color(0xffe7e7e7),
-                      width: 100,
-                      height: 40,
-                    ),
-                    SizedBox(
-                      height: 40,
-                    )
-                  ]),
+                  child: Row(
+                    children: [
+                      Container(
+                        color: const Color(0xffe7e7e7),
+                        width: 100,
+                        height: 40,
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ),

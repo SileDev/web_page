@@ -47,7 +47,7 @@ class ServiceCard extends StatelessWidget {
               ? Column(
                   children: [
                     Image.asset(
-                      "assets/lateral_menu/cpsc.jpg",
+                      "assets/content_panel/cpsc.jpg",
                       width: double.infinity,
                       height: 125,
                       fit: BoxFit.cover,
@@ -135,7 +135,7 @@ class ServiceCard extends StatelessWidget {
                   children: [
                     Expanded(
                       child: Image.asset(
-                        "assets/lateral_menu/cpsc.jpg",
+                        "assets/content_panel/cpsc.jpg",
                         height: 125,
                         fit: BoxFit.cover,
                       ),

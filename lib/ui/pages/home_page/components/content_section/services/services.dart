@@ -26,7 +26,7 @@ class Services extends StatelessWidget {
             isRated: false,
           ),
           ServiceCard(
-            sectionName: "Logo Design",
+            sectionName: "Corporate Identity",
             sectionColor: Color(0xff4ce1b7),
             labelColor: Color(0xff044a88),
             iconBackgroundColor: Color(0xff044a88),
@@ -34,7 +34,7 @@ class Services extends StatelessWidget {
             isRated: false,
           ),
           ServiceCard(
-            sectionName: "Logo Design",
+            sectionName: "Influencer Guide",
             sectionColor: Color(0xff4ce1b7),
             labelColor: Color(0xff044a88),
             iconBackgroundColor: Color(0xff044a88),
@@ -42,7 +42,7 @@ class Services extends StatelessWidget {
             isRated: false,
           ),
           ServiceCard(
-            sectionName: "Logo Design",
+            sectionName: "Project Management",
             sectionColor: Color(0xff044a88),
             labelColor: Color(0xffffffff),
             iconBackgroundColor: Color(0xffffffff),
@@ -50,7 +50,7 @@ class Services extends StatelessWidget {
             isRated: false,
           ),
           ServiceCard(
-            sectionName: "Logo Design",
+            sectionName: "Content Writer",
             sectionColor: Color(0xff414c5e),
             labelColor: Color(0xffffffff),
             iconBackgroundColor: Color(0xffffffff),
@@ -58,7 +58,7 @@ class Services extends StatelessWidget {
             isRated: true,
           ),
           ServiceCard(
-            sectionName: "Logo Design",
+            sectionName: "Experimental Illustration",
             sectionColor: Color(0xff4ce1b7),
             labelColor: Color(0xff044a88),
             iconBackgroundColor: Color(0xff044a88),
